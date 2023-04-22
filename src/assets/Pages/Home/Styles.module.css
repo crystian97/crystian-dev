@@ -18,5 +18,9 @@
   padding: 10px;
 }
 .SocialLinks {
-  display: flex justify-content;
+  display: flex;
+  justify-content: space-between;
+}
+.SocialLinks .whatsapp:hover {
+  background-color: #005000;
 }

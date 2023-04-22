@@ -14,10 +14,19 @@ export default function Home() {
           <a href="" target="_blank" rel="noopener noreferrer">
             Linkedin
           </a>
-          <a href="http://" target="_blank" rel="noopener noreferrer">
+          <a
+            href="https://github.com/crystian97?tab=repositories"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             Github
           </a>
-          <a href="http://" target="_blank" rel="noopener noreferrer">
+          <a
+            className={styles.whatsapp}
+            href="https://api.whatsapp.com/send?phone=31998414257&text=Ol%C3%A1%20Crystian%20Tudo%20bem?"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             Whatsapp
           </a>
         </div>
