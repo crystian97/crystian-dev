@@ -1,0 +1,18 @@
+.HomeContainer {
+  display: flex;
+  background-color: "#2a363c";
+}
+.ProfileImage {
+  background: #782649;
+  border-radius: 50%;
+  width: 12.5rem;
+  heigth: 12.5rem;
+}
+.ProfilePhotoContainer {
+  border-radius: 50%;
+  border: 10px solid #782649;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+}
