@@ -10,7 +10,17 @@ export default function Home() {
             alt="Crystian97"
           />
         </div>
-        <div></div>
+        <div className={styles.SocialLinks}>
+          <a href="" target="_blank" rel="noopener noreferrer">
+            Linkedin
+          </a>
+          <a href="http://" target="_blank" rel="noopener noreferrer">
+            Github
+          </a>
+          <a href="http://" target="_blank" rel="noopener noreferrer">
+            Whatsapp
+          </a>
+        </div>
       </div>
     </>
   );

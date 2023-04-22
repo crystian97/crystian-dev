@@ -1,6 +1,7 @@
 .HomeContainer {
   display: flex;
   background-color: "#2a363c";
+  flex-direction: column;
 }
 .ProfileImage {
   background: #782649;
@@ -15,4 +16,7 @@
   justify-content: center;
   align-items: center;
   padding: 10px;
+}
+.SocialLinks {
+  display: flex justify-content;
 }
