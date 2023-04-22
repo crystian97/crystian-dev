@@ -1,3 +1,4 @@
+import { GithubLogo, LinkedinLogo, WhatsappLogo } from "phosphor-react";
 import styles from "./Styles.module.css";
 export default function Home() {
   return (
@@ -17,7 +18,7 @@ export default function Home() {
             target="_blank"
             rel="noopener noreferrer"
           >
-            Linkedin
+            <LinkedinLogo size={32} />
           </a>
           <a
             className={styles.SocialLink}
@@ -25,7 +26,7 @@ export default function Home() {
             target="_blank"
             rel="noopener noreferrer"
           >
-            Github
+            <GithubLogo size={32} />
           </a>
           <a
             className={(styles.whatsapp, styles.SocialLink)}
@@ -33,9 +34,10 @@ export default function Home() {
             target="_blank"
             rel="noopener noreferrer"
           >
-            Whatsapp
+            <WhatsappLogo size={32} />
           </a>
         </div>
+        <div>Projetos em breve...</div>
       </div>
     </>
   );
