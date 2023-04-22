@@ -13,7 +13,7 @@ export default function Home() {
         <div className={styles.SocialLinks}>
           <a
             className={styles.SocialLink}
-            href=""
+            href="https://www.linkedin.com/in/crystian-veloso-98737519b/"
             target="_blank"
             rel="noopener noreferrer"
           >
