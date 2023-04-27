@@ -20,7 +20,7 @@ export default function Home() {
             alt="Crystian97"
           />
         </div>
-        <small className={styles.title}>crystian de araújo veloso</small>
+        <small className={styles.title}>Crystian de Araújo Veloso</small>
         <div className={styles.SocialLinks}>
           <a
             className={styles.SocialLink}
